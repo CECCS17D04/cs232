@@ -20,7 +20,8 @@ lo        Link encap:Local Loopback
           collisions:0 txqueuelen:0 
           RX bytes:68578 (68.5 KB)  TX bytes:68578 (68.5 KB)
 
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eh[Kth0 192.168.0.91 subnet[K[K[K[K[K[Knetmask 2555[K.2 555[K.26[K55.0
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eh[Kth0 192.168.0.91 subnet[K[K[K[K[K[Knetmask 2555[K.2 
+555[K.26[K55.0
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifcong[Kfig
 eth0      Link encap:Ethernet  HWaddr 10:78:d2:e0:ac:f8  
           inet addr:192.168.0.91  Bcast:192.168.0.255  Mask:255.255.255.0
