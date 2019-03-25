@@ -6,7 +6,9 @@ Script started on Monday 25 March 2019 11:44:55 AM IST
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d04@192.168.0.30's password: 
-s4d.txt                                         0%    0     0.0KB/s   --:-- ETAs4d.txt                                       100% 3060     3.0KB/s   00:00    
+
+s4d.txt                                         0%    0     0.0KB/s   --:-- ETA
+s4d.txt                                       100% 3060     3.0KB/s   00:00    
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ sss[Kh cs17d04@192.168.0.30
 .
               |
@@ -21,7 +23,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Mar 25 11:35:29 2019 from 192.168.0.130
+Last login: Mon Mar 25 11:35:29 2019 from 192.168.0.130
+
 $ ls
 examples.desktop  result.txt  s4d.txt  test  test.txt
 $ scpn  cs17d02 4@192.168.0.39 0:/home/cs17d0$ 4/c,txt    .txt/home/s4d1
@@ -33,8 +36,10 @@ usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
            [-l limit] [-o ssh_option] [-P port] [-S program]
            [[user@]host1:]file1 ... [[user@]host2:]file2
 $ 2 exit
-Connection to 192.168.0.30 closed.
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d04@192.168.0.30:/home/cs1704d04[C[C/m[Kc,[K.txt ?[K/hom e/s4d1
+Connection to 192.168.0.30 closed.
+
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d04@192.168.0.30:/home/cs1704d04[C[C/m[Kc,[K.txt ?[K/hom 
+e/s4d1
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -42,8 +47,13 @@ Connection to 192.168.0.30 closed.
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d04@192.168.0.30's password: 
 scp: /home/cs17d04/c.txt: No such file or directory
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d04@192.168.0.30:/home/cs17d04/c.txt /homee/s4d1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt /home/[1Ps4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d04@192.168.0.30:/home/cs17d04/c.txt /home
+e/s4d1
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt /home/[1Ps4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -51,8 +61,17 @@ scp: /home/cs17d04/c.txt: No such file or directory
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d04@192.168.0.30's password: 
 scp: /home/cs17d04/b.txt: No such file or directory
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d04@192.168.0.30:/home/cs17d04/b.txt /homee/s4d1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/[1Ps4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s[1P4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s4[1Pd1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s4d[1P1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s4d1[K[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s4d1 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d04@192.168.0.30:/home/cs17d04/b.txt /home
+e/s4d1
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/[1Ps4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s[1P4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s4[1Pd1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s4d[1P1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s4d1[K[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb.txt /home/s4d1 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -60,8 +79,18 @@ scp: /home/cs17d04/b.txt: No such file or directory
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d04@192.168.0.30's password: 
 scp: /home/b.txt: No such file or directory
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d04@192.168.0.30:/home/b.txt /home/s4d1[C[1P[1@m[1@ecme.txt /home/s4d1 [A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csme.txt /home/s4d11[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1me.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7me.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdme.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0me.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4me.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/me.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d04@192.168.0.30:/home/b.txt /home/s4d1[C[1P[1@m[1@ecme.txt /home/s4d1 [A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csme.txt /home/s4d1
+1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1me.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7me.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdme.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0me.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4me.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/me.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -69,15 +98,28 @@ scp: /home/b.txt: No such file or directory
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d04@192.168.0.30's password: 
 scp: /home/cs17d04/me.txt: No such file or directory
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d04@192.168.0.30:/home/cs17d04/me.txt /homme/s4d1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt /home[1P/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt /home/[1Ps4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.txt /home/s4d1[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs17d04@192.168.0.30:/home/cs17d04/me.txt /hom
+me/s4d1
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt /home[1P/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt /home/[1Ps4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.txt /home/s4d1[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d04@192.168.0.30's password: 
-result.txt                                      0%    0     0.0KB/s   --:-- ETAresult.txt                                    100%   14KB  13.7KB/s   00:00    
+
+result.txt                                      0%    0     0.0KB/s   --:-- ETA
+result.txt                                    100%   14KB  13.7KB/s   00:00    
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ ls
 abc.txt                     file2.txt        result2.txt        s1_s2.txt
 a.txt                       file.txt         result_CHN(1).pdf  s1sgpa.txt
