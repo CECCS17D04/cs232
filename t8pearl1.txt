@@ -1,0 +1,41 @@
+Script started on Thursday 11 April 2019 11:56:44 AM IST
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ sudp apt-get install perl
+No command 'sudp' found, did you mean:
+ Command 'sfdp' from package 'graphviz' (main)
+ Command 'sup' from package 'sup' (universe)
+ Command 'sudo' from package 'sudo-ldap' (universe)
+ Command 'sudo' from package 'sudo' (main)
+sudp: command not found
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ sudp apt-get install perl[1P[1@o
+[sudo] password for s4d1: 
+Sorry, try again.
+[sudo] password for s4d1: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+perl is already the newest version (5.22.1-9ubuntu0.6).
+0 upgraded, 0 newly installed, 0 to remove and 305 not upgraded.
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ perl -v
+
+This is perl 5, version 22, subversion 1 (v5.22.1) built for x86_64-linux-gnu-thread-multi
+(with 73 registered patches, see perl -V for more detail)
+
+Copyright 1987-2015, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ cd[K[Kperl amal.pl
+Hello]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ perl amal.pl
+HelloEnter two numbers 
+3
+5
+Product is = 15
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 11 April 2019 12:04:48 PM IST
