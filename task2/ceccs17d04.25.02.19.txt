@@ -127,7 +127,8 @@ I/O Error: Couldn't open file 'result_CHN.txt': No such file or directory.
 ]0;s4d1@ceclab2-Veriton-Series: ~/Downloadss4d1@ceclab2-Veriton-Series:~/Downloads$ grep [K[K[K[K[Kgrep "CHN17CS" result_CHN.txt>s4d.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cdgrep "CHN17CS" result_CHN.txt>s4d.txt
 grep: result_CHN.txt: No such file or directory
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ grep "CHN17CS" result_CHN.txt>s4d.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Kgrep "CHN17CS" result_CHN.txt
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ grep "CHN17CS" result_CHN.txt>s4d.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Kgrep "CHN17CS" result_CHN.txt
 grep: result_CHN.txt: No such file or directory
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ grep "CHN17CS" result_CHN.txt>s4d.txt
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4d.txt
@@ -251,7 +252,8 @@ CHN17CS117   MA101(B+), PH100(B), BE100(B), BE10105(B+), BE103(A), EE100(C), PH1
 CHN17CS118   MA101(B), PH100(A), BE100(A), BE10105(C), BE103(B+), EE100(B+), PH110(O), EE110(O),
 CHN17CS119   MA101(F), PH100(C), BE100(F), BE10105(B), BE103(B), EE100(C), PH110(A+), EE110(B+),
 CHN17CS120   MA101(F), PH100(F), BE100(F), BE10105(F), BE103(B+), EE100(C), PH110(A), EE110(B+),
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4d.txtgrep "CHN17CS" result_CHN.txt>s4d.txt[K>s4d.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Kgrep "CHN17CS" result_CHN.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksed -i 's/O(O[C)?[K/  10 /g' s4d.txt
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4d.txtgrep "CHN17CS" result_CHN.txt>s4d.txt[K>s4d.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Kgrep "CHN17CS" result_CHN.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksed -i 's/O(O[C)?[K/  10 /g' s4d.txt
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ sed -i 's/(O)/  10 /g' s4d.txt[1P[1P[1@9[1P[1@A[1@+
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ sed -i 's/(A+)/  9 /g' s4d.txtO)/  10[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@8[1@.[1@5[1P[1@A
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ sed -i 's/(A)/  8.5 /g' s4d.txt[1P[1P[1P[1@B[1@+
@@ -381,7 +383,8 @@ CHN17CS117   MA101  8 , PH100  7 , BE100  7 , BE10105  8 , BE103  8.5 , EE100  6
 CHN17CS118   MA101  7 , PH100  8.5 , BE100  8.5 , BE10105  6 , BE103  8 , EE100  8 , PH110  10 , EE110  10 ,
 CHN17CS119   MA101  0 , PH100  6 , BE100  0 , BE10105  7 , BE103  7 , EE100  6 , PH110  9 , EE110  8 ,
 CHN17CS120   MA101  0 , PH100  0 , BE100  0 , BE10105  0 , BE103  8 , EE100  6 , PH110  8.5 , EE110  8 ,
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4d.txt[19@sed -i 's/(FE)/  0 /g'[C[C[C[C[C[C[C[C[19Pcat[C[C[C[C[C[C[C[C[Kawk '{s=$3+$6+$9+$12+$15+$18+$21+$24+[K}{e[Kr=s/8}{prin t r}' s4d.txt>cgpa.txt
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4d.txt[19@sed -i 's/(FE)/  0 /g'[C[C[C[C[C[C[C[C[19Pcat[C[C[C[C[C[C[C[C[Kawk '{s=$3+$6+$9+$12+$15+$18+$21+$24+[K}{e[Kr=s/8}{prin 
+t r}' s4d.txt>cgpa.txt
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat cgpa.txt
 7.75
 7.875
@@ -503,7 +506,10 @@ CHN17CS120   MA101  0 , PH100  0 , BE100  0 , BE10105  0 , BE103  8 , EE100  6 ,
 8.25
 5.375
 3.8125
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat cgpa.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{printt r}' s4d.txt>cgpa.txt[K[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ awk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' s4d.txt>cgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[K[Kcat cgpa.txtpastre[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste -d '/t' s4d.txt cgpa.txt
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat cgpa.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print
+t r}' s4d.txt>cgpa.txt
+[K[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ awk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' s4d.txt>cgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[K[Kcat cgpa.txtpastre[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste -d '/t' s4d.txt cgpa.txt
 CHN17CS001       MA101  8.5 , PH100  8 , BE100  7 , BE10105  8 , BE103  8 , EE100  6 , PH110  8.5 , EE110  8 ,/7.75
 CHN17CS002       MA101  8.5 , PH100  8 , BE100  7 , BE10105  8 , BE103  8.5 , EE100  7 , PH110  8 , EE110  8 ,/7.875
 CHN17CS003       MA101  8 , PH100  7 , BE100  6 , BE10105  6 , BE103  9 , EE100  6 , PH110  8 , EE110  8 ,/7.25
@@ -624,7 +630,8 @@ CHN17CS117   MA101  8 , PH100  7 , BE100  7 , BE10105  8 , BE103  8.5 , EE100  6
 CHN17CS118   MA101  7 , PH100  8.5 , BE100  8.5 , BE10105  6 , BE103  8 , EE100  8 , PH110  10 , EE110  10 ,/8.25
 CHN17CS119   MA101  0 , PH100  6 , BE100  0 , BE10105  7 , BE103  7 , EE100  6 , PH110  9 , EE110  8 ,/5.375
 CHN17CS120   MA101  0 , PH100  0 , BE100  0 , BE10105  0 , BE103  8 , EE100  6 , PH110  8.5 , EE110  8 ,/3.8125
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ paste -d '/t' s4d.txt cgpa.txt[K]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ paste -d '/t' s4d.txt cgpa.txt[1@ [1@ [C
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ paste -d '/t' s4d.txt cgpa.txt
+[K]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ paste -d '/t' s4d.txt cgpa.txt[1@ [1@ [C
 CHN17CS001       MA101  8.5 , PH100  8 , BE100  7 , BE10105  8 , BE103  8 , EE100  6 , PH110  8.5 , EE110  8 , 7.75
 CHN17CS002       MA101  8.5 , PH100  8 , BE100  7 , BE10105  8 , BE103  8.5 , EE100  7 , PH110  8 , EE110  8 , 7.875
 CHN17CS003       MA101  8 , PH100  7 , BE100  6 , BE10105  6 , BE103  9 , EE100  6 , PH110  8 , EE110  8 , 7.25
@@ -745,7 +752,8 @@ CHN17CS117   MA101  8 , PH100  7 , BE100  7 , BE10105  8 , BE103  8.5 , EE100  6
 CHN17CS118   MA101  7 , PH100  8.5 , BE100  8.5 , BE10105  6 , BE103  8 , EE100  8 , PH110  10 , EE110  10 , 8.25
 CHN17CS119   MA101  0 , PH100  6 , BE100  0 , BE10105  7 , BE103  7 , EE100  6 , PH110  9 , EE110  8 , 5.375
 CHN17CS120   MA101  0 , PH100  0 , BE100  0 , BE10105  0 , BE103  8 , EE100  6 , PH110  8.5 , EE110  8 , 3.8125
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ awk '{print [K$1[K]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ awk '{print$1}' s4d.txt>reg.txt
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ awk '{print [K$1
+[K]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ awk '{print$1}' s4d.txt>reg.txt
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat reg.txt
 CHN17CS001
 CHN17CS002
@@ -1112,7 +1120,9 @@ CHN17CS117 7.9375
 CHN17CS118 8.25
 CHN17CS119 5.375
 CHN17CS120 3.8125
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ [K]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat res.txtpaste -d"  /t" reg.txt cgpa.txt>res.txt[Ksgpa.txt[20Pcat reg.txtawk '{print$1}' s4d.txt>reg.txt[20Pcat reg.txtpaste -d"  /t" reg.txt sgpa.txtcgpa.txt>res.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[K[Kcat dbatch.txt
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ 
+[K]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat res.txtpaste -d"  /t" reg.txt cgpa.txt>res.txt[Ksgpa.txt[20Pcat reg.txtawk '{print$1}' s4d.txt>reg.txt[20Pcat reg.txtpaste -d"  /t" reg.txt sgpa.txtcgpa.txt>res.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[K[Kcat dbatch.txt
 Sl No.   Admn No.    Uty Reg No.                    Name
    1.      411/17   CHN17CS004     ABIN THOMAS
    2.      412/17   CHN17CS006     ADERSH A
@@ -1177,7 +1187,8 @@ Sl No.   Admn No.    Uty Reg No.                    Name
    61.     480/17   LCHN17CS121    AISWARYA J
    62.     475/17   LCHN17CS123    HARIKRISHNAN U
 
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ awk 'NR==FNR   [K[K[K  {seen[$3]=1;  next}seen[$1]==1 {see n[$2]++; print $2}' s4d.txt resu[K.txt>cgpa.txt
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ awk 'NR==FNR   [K[K[K  {seen[$3]=1;  next}seen[$1]==1 {see 
+n[$2]++; print $2}' s4d.txt resu[K.txt>cgpa.txt
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ paste -d'\t' final.txt cgpa.txt[C[1P[1P[1P[1P[1P[1@d[1@b[1@a[1@t[1@c[1@h[C[C[C[C[C[C[C[C[C[C[C[C[C>s4dfinal.txt
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4dfinal.txt
 Sl No.   Admn No.    Uty Reg No.                    Name	
@@ -1244,7 +1255,8 @@ Sl No.   Admn No.    Uty Reg No.                    Name
    61.     480/17   LCHN17CS121    AISWARYA J	
    62.     475/17   LCHN17CS123    HARIKRISHNAN U	
 	
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ sed -i '1 i\sl.no[C[1Pono[1Pl.noNl.no[C[C[1Pl.noSl.no[C[C[C[C  ad no. reg no  m[Kname  cgpa' s4d final.txt
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ sed -i '1 i\sl.no[C[1Pono[1Pl.noNl.no[C[C[1Pl.noSl.no[C[C[C[C  ad no. reg no  m[Kname  cgpa' s4d 
+final.txt
 ]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4dfinal.txt
 Sl.no  ad no. reg no  name  cgpa
 Sl No.   Admn No.    Uty Reg No.                    Name	
@@ -1311,10 +1323,19 @@ Sl No.   Admn No.    Uty Reg No.                    Name
    61.     480/17   LCHN17CS121    AISWARYA J	
    62.     475/17   LCHN17CS123    HARIKRISHNAN U	
 	
-]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4dfinal.txtsed -i '1 i\Sl.no  ad no. reg no  name  cgpa' s4dffinal.txt[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4dfinal.txt[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpaste -d'\t' dbatch.txt cgpa.txt>s4dfinal.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR  {seen[$3]=1;  next}seen[$1]==1 {seenn[$2]++; print $2}' s4d.txt res.txt>cgpa.txt[Acat dbatch.txt[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pres.txtpaste -d"  /t" reg.txt cgpa.txt>res.txt[Ksgpa.txt[20Pcat reg.txtawk '{print$1}' s4d.txt>reg.txtpaste -d '  /t' s4d.txt cgpa.txt[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pca[C[C[C[C[C[C[C[C[C[Cawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{printt r}' s4d.txt>cgpa.txt[A]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4d.txt[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19@sed -i 's/(FE)/  0 /g'[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CP)/  5[C[C[C[C[C[C[C[C[C[C[C[CC)/  6[C[C[C[C[C[C[C[C[C[C[C[CB)/  7[C[C[C[C[C[C[C[C[C[C[C[C[1@+)/  8[C[C[C[C[C[C[C[C[C[C[C[C[1@A)/  8.5[C[C[C[C[C[C[C[C[C[C[C[C[1P+)/  9[C[C[C[C[C[C[C[C[C[C[C[CO)/  10[C[C[C[C[C[C[C[C[C[C[C[C[19Pcat[C[C[C[C[C[C[C[Cexit[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4dfinal.txtsed -i '1 i\Sl.no  ad no. reg no  name  cgpa' s4df
+final.txt[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4dfinal.txt[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpaste -d'\t' dbatch.txt cgpa.txt>s4dfinal.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR  {seen[$3]=1;  next}seen[$1]==1 {seen
+n[$2]++; print $2}' s4d.txt res.txt>cgpa.txt[Acat dbatch.txt[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pres.txtpaste -d"  /t" reg.txt cgpa.txt>res.txt[Ksgpa.txt[20Pcat reg.txtawk '{print$1}' s4d.txt>reg.txtpaste -d '  /t' s4d.txt cgpa.txt[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pca[C[C[C[C[C[C[C[C[C[Cawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print
+t r}' s4d.txt>cgpa.txt[A
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ cat s4d.txt[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19@sed -i 's/(FE)/  0 /g'[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CP)/  5[C[C[C[C[C[C[C[C[C[C[C[CC)/  6[C[C[C[C[C[C[C[C[C[C[C[CB)/  7[C[C[C[C[C[C[C[C[C[C[C[C[1@+)/  8[C[C[C[C[C[C[C[C[C[C[C[C[1@A)/  8.5[C[C[C[C[C[C[C[C[C[C[C[C[1P+)/  9[C[C[C[C[C[C[C[C[C[C[C[CO)/  10[C[C[C[C[C[C[C[C[C[C[C[C[19Pcat[C[C[C[C[C[C[C[Cexit[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
 exit
 
 Script done on Monday 25 February 2019 12:11:01 PM IST
