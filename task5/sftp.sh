@@ -1,7 +1,7 @@
 #!/bin/sh
 
 touch sftp_test_1.txt
-sftp cs17d21@http://14.139.189.217
+sftp cs17d04@http://14.139.189.217
 ?
 version
 ls
