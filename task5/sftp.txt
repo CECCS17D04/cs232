@@ -11,12 +11,16 @@ sftp> ls
 examples.desktop    
 sftp> put result.txt
 Uploading result.txt to /home/cs17d04/result.txt
-result.txt                                      0%    0     0.0KB/s   --:-- ETAresult.txt                                    100%   14KB  13.7KB/s   00:00    
+
+result.txt                                      0%    0     0.0KB/s   --:-- ETA
+result.txt                                    100%   14KB  13.7KB/s   00:00    
 sftp> ls
 examples.desktop    result.txt          
 sftp> get result,[K.y[Kxttxtxt
 Fetching /home/cs17d04/result.txt to result.txt
-/home/cs17d04/result.txt                        0%    0     0.0KB/s   --:-- ETA/home/cs17d04/result.txt                      100%   14KB  13.7KB/s   00:00    
+
+/home/cs17d04/result.txt                        0%    0     0.0KB/s   --:-- ETA
+/home/cs17d04/result.txt                      100%   14KB  13.7KB/s   00:00    
 sftp> ipwdipwd[Klpwdpwd
 Local working directory: /home/s4d1
 sftp> pwd
@@ -58,7 +62,8 @@ version                            Show SFTP version
 ?                                  Synonym for help
 sftp> mkdir test
 sftp> cd tst
-Couldn't stat remote file: No such file or directory
+Couldn't stat remote file: No such file or directory
+
 sftp> ls
 examples.desktop    result.txt          test                
 sftp> 
